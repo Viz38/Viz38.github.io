@@ -441,17 +441,17 @@ video {
 .label-logo:after {
     font-family: "Semibold";
     font-size: 20px;
-    content: "wishnew";
+    content: "Back";
 }
 
 .label-logo:hover:after {
-    content: "wishnew.me";
+    content: "<-- Back";
     white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
     .label-logo:hover:after {
-        content: "wishnew.me";
+        content: "<-- Back";
     }
 }
 
@@ -640,7 +640,7 @@ video {
     bottom: 0;
     left: 60%;
     max-width: 110%;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/logo.gif);
     background-repeat: no-repeat;
     -webkit-background-size: fixed;
     -moz-background-size: fixed;
