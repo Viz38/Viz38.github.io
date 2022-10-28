@@ -10,15 +10,21 @@ body {
   height: 100vh;
   margin: 0 auto;
   font-family: "Inconsolata", monospace;
+  background-color: #1D1D1C;
+}
+
+p {
+  color: #fff;
 }
 body header {
   height: 5%;
   display: flex;
   align-items: center;
 }
-body header h4 {
+h1 {
+  padding-top: 2%;
   text-transform: uppercase;
-  color: #333333;
+  color: #A82D36;
 }
 body main {
   height: 90%;
@@ -52,7 +58,7 @@ body main section:last-of-type p {
 body main section:last-of-type button {
   width: fit-content;
   padding: 12px 20px;
-  background-color: #333333;
+  background-color: #40531B;
   color: #fff;
   text-transform: uppercase;
   font-size: 10px;
