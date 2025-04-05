@@ -1,0 +1,74 @@
+body.page .get-pack {
+  margin: 3rem auto 2rem;
+  background: url("../../images/blog/alfred-emoji-snippet-pack/alfred-bg.png");
+  padding: 1rem 0 1rem 1rem;
+  position: relative;
+  border-radius: 2px;
+}
+body.page .get-pack img {
+  position: relative;
+  width: 5.5rem;
+  top: -3rem;
+  margin: 0 auto -2rem;
+}
+body.page .get-pack a {
+  display: block;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0 1rem 0 0;
+  font-size: 1rem;
+  background: #fff;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+  color: #62218f;
+  top: 0;
+}
+body.page .get-pack a:visited {
+  color: #62218f;
+}
+body.page .get-pack a:visited:hover {
+  color: #62218f;
+}
+body.page .get-pack a:hover {
+  background: #eee;
+  color: #62218f;
+  cursor: pointer;
+}
+body.page .get-pack a.download {
+  background: #fbd841;
+  color: #000;
+  margin-bottom: 1rem;
+}
+body.page .get-pack a.download:visited {
+  color: #000;
+}
+body.page .get-pack a.download:visited:hover {
+  color: #000;
+}
+body.page .get-pack a.download:hover {
+  background: #edc92c;
+}
+body.page code {
+  background: #eee;
+  padding: 0 0.5rem 0.2rem;
+  border: 1px solid #ccc;
+}
+@media all and (min-width: 45rem), (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body.page .get-pack {
+    margin: 2rem auto;
+    padding: 1rem 0 0 6.2rem;
+  }
+  body.page .get-pack a {
+    display: inline-block;
+  }
+  body.page .get-pack a.install {
+    width: 15.5rem;
+    text-align: center;
+  }
+  body.page .get-pack img {
+    position: absolute;
+    top: -1rem;
+    left: 0;
+  }
+}

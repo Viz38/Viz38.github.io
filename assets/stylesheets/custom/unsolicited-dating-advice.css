@@ -1,0 +1,45 @@
+body.page .content .date-order {
+  width: 100%;
+}
+body.page .content .date-order div {
+  float: left;
+  margin: 1%;
+  padding: 0 0 0.5rem 0;
+  font-family: "freight-sans-pro", sans-serif;
+}
+body.page .content .date-order div:first-child {
+  margin-left: 0;
+}
+body.page .content .date-order div:last-child {
+  margin-right: 0;
+}
+body.page .content .date-order div.day {
+  width: 15%;
+}
+body.page .content .date-order div.month {
+  width: 29%;
+}
+body.page .content .date-order div.year {
+  width: 50%;
+}
+body.page .content .day,
+body.page .content .month,
+body.page .content .year {
+  border: 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  display: inline-block;
+}
+body.page .content .day {
+  border-color: #faab54;
+}
+body.page .content .month {
+  border-color: #a7d35d;
+}
+body.page .content .year {
+  border-color: #75cae0;
+}
+body.page .content .strike {
+  color: #ccc;
+  text-decoration: line-through;
+}
