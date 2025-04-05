@@ -601,6 +601,14 @@ nav .navWrap  .logo {
   width:25%; 
   height:auto;
 }
+
+/* Media query to hide on mobile devices */
+@media (max-width: 767px) {
+  nav .navWrap .logo {
+    display: none;
+  }
+}
+
 nav .navWrap .img1:hover {
   margin-top: -2.5rem;
   padding-bottom: 2.5rem;
