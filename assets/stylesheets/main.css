@@ -453,7 +453,9 @@ section.delight h2 span.animate span:nth-child(12) {
   height: 8rem;
   margin: 0 auto;
   max-width: 40rem;
+  border-bottom: 1.5px solid #ccc;
 }
+
 .footerMe .bottomHead {
   border: 0;
   margin: 0;
@@ -602,11 +604,28 @@ nav .navWrap  .logo {
   height:auto;
 }
 
-/* Media query to hide on mobile devices */
 @media (max-width: 767px) {
   nav .navWrap .logo {
-    display: none;
+      display: none; 
   }
+  nav .navWrap {
+      text-align: left; 
+      padding-left: 0; 
+  }
+  nav .navWrap a {
+      margin-right: 1rem !important; 
+      margin-left: 0 !important; 
+      display: inline-block; 
+  }
+  nav .navWrap a.blog {
+      margin-right: 1rem !important; 
+  }
+}
+
+@media (max-width: 300px) {
+  nav .navWrap .img1 {
+    display: none; 
+}
 }
 
 nav .navWrap .img1:hover {
