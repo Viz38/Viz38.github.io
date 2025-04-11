@@ -209,7 +209,7 @@ section.topSection {
 }
 section.topSection h2 {
   position: relative;
-  margin: 0 auto 0.5rem;
+  margin: 2rem auto 0.5rem;
   padding-top: 5rem;
 }
 section.topSection h2:before {
