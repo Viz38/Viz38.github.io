@@ -311,6 +311,7 @@ section.topSection .topHead {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20);
 }
+
 .oldButton .nope {
   position: absolute;
   opacity: 0.8;
@@ -1720,6 +1721,8 @@ div#mc_embed_signup form div.mce_inline_error {
   font-family: "freight-text-pro";
   font-style: italic;
 }
+
+
 .speech {
   text-align: right;
   max-width: 80%;
@@ -1788,6 +1791,50 @@ div#mc_embed_signup form div.mce_inline_error {
   padding-top: 4rem !important;
   margin-top: 0;
 }
+
+
+.point-link {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  height: auto;
+  padding: 1.3rem;
+  
+  max-width: 40rem !important;
+}
+.point-link .title {
+  padding-left: 10rem;
+  max-width: 40rem !important;
+  font-size: 1.4rem !important;
+  position: relative;
+  line-height: 1.6rem;
+  color: #000;
+  font-weight: 600 !important;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  padding-left: 0rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.point-link p{
+padding-right:1rem ;
+}
+.checkmark  {
+display: inline-block;
+margin-left: 0.5rem;
+font-size: 1rem;
+font-weight: 500;
+line-height: 0.1rem;
+color: #ccc;
+position: absolute;
+top: 0.8rem;
+margin-right: 0.5rem;
+font-family: 'freight-micro-pro';
+color: #000;
+}
+
+
 @media all and (min-width: 45rem), (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 768px) and (max-device-width: 1024px) {
   .postList ul {
     zoom: 1;
@@ -1900,6 +1947,7 @@ div#mc_embed_signup form div.mce_inline_error {
   border: 0;
   max-width: initial;
 }
+
 @-moz-keyframes point {
   0% {
     -webkit-transform: translateX(0);
@@ -2289,4 +2337,39 @@ div#mc_embed_signup form div.mce_inline_error {
     -ms-transform: translateY(0.2rem);
     transform: translateY(0.2rem);
   }
+}
+
+/* Reset the ul and align it with other content */
+.tidbit .postList ul.work {
+  max-width: 40rem;          /* Match the width of other elements */
+  margin: 2rem auto 0;       /* Center it, add top margin */
+  padding: 0;                /* Remove all padding */
+  list-style: none;          /* Remove bullets */
+  margin-left: 0;            /* Explicitly remove left margin */
+}
+
+/* Ensure li elements have no extra spacing */
+.tidbit .postList ul.work li {
+  padding: 0;                /* No padding on list items */
+  margin: 0;                 /* No margins on list items */
+  display: block;            /* Stack items vertically */
+}
+
+/* Align content inside li */
+.tidbit .postList ul.work li h3,
+.tidbit .postList ul.work li p {
+  margin: 0;                 /* Remove margins from headings/paragraphs */
+  padding: 0;                /* Remove padding */
+  text-align: left;          /* Ensure left alignment */
+}
+
+.tidbit .postList ul.work {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.postList.tidbit {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 40rem;          /* Keep it consistent */
 }
