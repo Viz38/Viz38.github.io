@@ -1676,7 +1676,7 @@ div#mc_embed_signup form div.mce_inline_error {
   display: none;
 }
 .postList ul li a[data-visited] h3:before {
-  content: '\2713';
+  content: '';
   display: inline-block;
   margin-left: 0.5rem;
   font-size: 1rem;
